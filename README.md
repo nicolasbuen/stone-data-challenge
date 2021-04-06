@@ -2,6 +2,8 @@
 
 Essa repo foi criada para o Data Challenge da Stone Pagamentos! Como ainda estou começando na jornada da Ciência e Análise de Dados, esse projeto foi uma experiência incrível! Eu já havia estudado e realizado projetos alguns poucos projetos de regressão antes, mas ainda não complexos como esse - acho que nunca aprendi tanto com um dataset. 
 
+Todos os notebooks possuem um resumo do que foi realizado ou do que foi descoberto utilizando eles (no caso do EDA). 
+
 #### Sumário de Arquivos
 
 * O [primeiro notebook](https://github.com/nicolasbuen/stone-data-challenge/blob/master/1.%20Understanding%20and%20Cleaning.ipynb) serviu para dar a primeira olhada nos datasets e realizar o primeiro **pré-processamento e a limpeza dos dados**. Devido ao volume e aos tipos dos dados - mais de 200mil observações contendo muitas strings no cadastrais.csv - ele demora um pouco pra rodar, mas nada muito expressivo (aproximadamente 3min30s). Para facilitar a replicabilidade, criei um script que retorna os mesmos DataFrames que esse notebook - está na pasta `scripts-replicabilidade` e é chamado `cleaning_script.py`.  
