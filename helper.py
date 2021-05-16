@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 import datetime
 import scipy.stats as st
@@ -40,6 +39,8 @@ dict_estados = {
                 "Sc": "SC"
 }
 
+# Estados -> Regiões
+
 dict_regioes = {
                 "SP": 'Sudeste',
                 "MG": 'Sudeste',
@@ -71,6 +72,7 @@ dict_regioes = {
 }
 
 # Ordinal Label StoneCreatedDate
+
 dict_ordinal_dates = {
             '2012-2':0, '2012-3':1, '2012-4':2, '2012-5':3, '2012-6':4, '2012-7':5, '2012-8':6, '2012-9':7,
             '2012-10':8, '2012-11':9, '2012-12':10, '2013-1':11, '2013-2':12, '2013-3':13, '2013-4':14,
@@ -90,6 +92,7 @@ dict_ordinal_dates = {
             }
 
 # Definindo Funções Apply - cleaning_script
+
 def YmD_to_datetime(date):
     '''
     Recebe um float contendo data em formato YYYYMMDD
@@ -114,3 +117,5 @@ def sample_ci_95(arr, alpha = 0.05):
     confidence_interval = st.t.interval(confidence_level, degrees_freedom, sample_mean, sample_standard_error)
     
     return confidence_interval
+
+
