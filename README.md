@@ -17,3 +17,5 @@ Todos os notebooks possuem um resumo do que foi realizado ou do que foi descober
 
 * O [quarto notebook](https://github.com/nicolasbuen/stone-data-challenge/blob/master/4.%20Modelling.ipynb) é onde foi realizado o **treinamento, a validação e a hiperparametrização dos modelos**. Além disso, **é nele que consta o modelo que cria o dataset da previsão - entregável**. Esse notebook toma bastante tempo para rodar! Nele também foi utilizado um dataset criado pelo script `create_predict_df.py`, também na pasta `scripts-replicabilidade`. Ele concatena ao dataset de treinamento (criado pelo `preprocessing.py`) rows com os meses ainda não vistos para todos os IDs. 
 
+
+* O [quarto notebook versão 2.0](https://github.com/nicolasbuen/stone-data-challenge/blob/master/4.%20Modelling.ipynb) é uma versão pós-entrega. Nela, eu corrijo alguns erros relacionados ao vazamento de informações que ocorreram durante a hiperparametrização e a validação dos modelos no notebook "Modelling". 
