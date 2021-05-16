@@ -2,6 +2,8 @@
 
 Essa repo foi criada para o Data Challenge da Stone Pagamentos. Os notebooks e a apresentação contidas aqui me garantiram o **primeiro lugar no desafio** e os 15 mil reais da premiação! 
 
+Caso algum dos notebooks não carregue pelo github, fique a vontade para utilizar o [Jupyter Notebook Viewer](https://nbviewer.jupyter.org/github/nicolasbuen/stone-data-challenge/tree/master/)! Não é necessário baixar nada e esse link direciona para os notebooks dessa repo.
+
 Todos os notebooks possuem um resumo do que foi realizado ou do que foi descoberto utilizando eles (no caso do EDA). 
 
 #### Sumário de Arquivos
