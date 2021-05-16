@@ -1,6 +1,6 @@
 ### Stone Data Challenge - Previsão de TPV
 
-Essa repo foi criada para o Data Challenge da Stone Pagamentos! Como ainda estou começando na jornada da Ciência e Análise de Dados, esse projeto foi uma experiência incrível! Eu já havia estudado e realizado projetos alguns poucos projetos de regressão antes, mas ainda não complexos como esse - acho que nunca aprendi tanto com um dataset. 
+Essa repo foi criada para o Data Challenge da Stone Pagamentos. Os notebooks e a apresentação contidas aqui me garantiram o **primeiro lugar no desafio** e os 15 mil reais da premiação! 
 
 Todos os notebooks possuem um resumo do que foi realizado ou do que foi descoberto utilizando eles (no caso do EDA). 
 
